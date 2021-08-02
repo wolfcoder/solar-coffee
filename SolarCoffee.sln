@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{D4BD128D-7181-4D9E-AF54-69E77752A97B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{ED005B4F-9BFD-4FDB-8624-55AB6F256ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{ED005B4F-9BFD-4FDB-8624-55AB6F256ECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{D2436E10-7B0A-401A-94B2-8D6C6E74C496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{D2436E10-7B0A-401A-94B2-8D6C6E74C496}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{80AEC50F-5931-4B92-A8E3-AC64A39E55FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{80AEC50F-5931-4B92-A8E3-AC64A39E55FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,22 +18,7 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|x64.Build.0 = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Debug|x86.Build.0 = Debug|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|x64.ActiveCfg = Release|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|x64.Build.0 = Release|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|x86.ActiveCfg = Release|Any CPU
-		{D4BD128D-7181-4D9E-AF54-69E77752A97B}.Release|x86.Build.0 = Release|Any CPU
 		{ED005B4F-9BFD-4FDB-8624-55AB6F256ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED005B4F-9BFD-4FDB-8624-55AB6F256ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED005B4F-9BFD-4FDB-8624-55AB6F256ECA}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -72,5 +55,11 @@ Global
 		{80AEC50F-5931-4B92-A8E3-AC64A39E55FE}.Release|x64.Build.0 = Release|Any CPU
 		{80AEC50F-5931-4B92-A8E3-AC64A39E55FE}.Release|x86.ActiveCfg = Release|Any CPU
 		{80AEC50F-5931-4B92-A8E3-AC64A39E55FE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {822B284C-8D3B-453A-9FFE-FAB0CE185346}
 	EndGlobalSection
 EndGlobal
